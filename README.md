@@ -27,4 +27,4 @@ pipenv shell
 FLASK_APP=./server/index.py flask run
 ```
 
-Go to `localhost:5000/graphql`
+Go to `localhost:5000/graphql` and run a `hello(age: 23, name: "yourname")` query

@@ -100,5 +100,6 @@ ENV/
 # mypy
 .mypy_cache/
 
-# Mac
+# Mac and VSCode
 .DS_Store
+.vscode/
