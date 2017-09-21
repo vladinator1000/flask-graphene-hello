@@ -12,26 +12,32 @@ $ pip install pipenv
 
 ### Installing
 
-1. Check out this repository:
+1. Clone this repository:
 
-    $ git clone https://github.com/savovs/flask-graphene-hello.git
-    $ cd flask-graphene-hello
+```
+$ git clone https://github.com/savovs/flask-graphene-hello.git
+$ cd flask-graphene-hello
+```
 
 2. Install dependencies:
-
-  $ pipenv install
+```
+$ pipenv install
+```
 
 
 3. Open project shell (in virtual environment):
 
-    $ pipenv shell
+```
+$ pipenv shell
+```
 
 4. Run Flask
 
-    $ FLASK_APP=./server/index.py flask run
+```
+$ FLASK_APP=./server/index.py flask run
+```
 
-
-5. Go to `localhost:5000/graphql` and run a `hello(age: 23, name: "yourname")` query
+5. Go to <localhost:5000/graphql> and run a `hello(age: 23, name: "yourname")` query
 
 That's it! 
 
